@@ -1,0 +1,54 @@
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+
+.btn {
+    background-color: #ffc107;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffca2c;
+}
